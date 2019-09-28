@@ -1,0 +1,132 @@
+.header_block{
+    margin: auto;
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head_comp2{
+    width: 184px;
+}
+.bar_line{
+    background-image: url("images/Rectangle.png");
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    padding: 20px 0 19px;
+}
+
+.container_ref{
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    }
+.annonce{
+    background-image: url("images/image.png");
+    background-size: cover;
+    padding: 160px;
+}
+.annonce_text{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: white;
+}
+.the_problem{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    text-align: center;
+    margin-top: 48px;
+    /*margin-bottom: 16px; */
+    color: #007765;
+}
+.problem_text{
+    border: 1px solid red;
+    width: 1110px;
+    margin: auto;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 92px;
+    color: #000000;
+
+}
+.margin_bl{
+    margin-block-end: 16px;
+    margin-block-start:16px;
+}
+
+.hero_block{
+    border: 1px solid red;
+    background-image: url("images/image\ \(1\).png");
+    background-size: cover;
+    padding:128px 20px 127px 20px;
+}
+.hero_block_text{
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    margin:0 auto;
+    width:1110px;
+    color: #FFFFFF;
+}
+.intro_block{
+    padding: 48px 20px 92px 20px;
+    margin: auto;
+}
+.intro_block_header{
+    border: 1px solid red;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+/* identical to box height */
+    text-align: center;
+    color: #007765;
+     margin: 0 auto 16px;; 
+    width: 1110px;
+}
+.intro_block_imgTxt{
+    width: 1110px;
+    margin: 0 auto;
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+p {
+    margin-block-end: 0;
+    margin-block-start: 0; 
+}
+a{
+    color: white; /* Цвет ссылок */
+    text-decoration: none;
+}
+ a:visited {
+    color: white; /* Цвет посещенных ссылок */
+    text-decoration: none;
+}
+ a:active {
+    color: white; /* Цвет активных ссылок */
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}
