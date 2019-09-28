@@ -102,14 +102,107 @@
     width: 1110px;
 }
 .intro_block_imgTxt{
+    border: 1px solid red;
     width: 1110px;
     margin: 0 auto;
-    font-family: Roboto sans-serif;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 37px;
     color: #000000;
+    
+}
+.intro_block_imgTxt_float{
+    float: left;
+    margin-right: 48px;
+}
+.intro_block_txt{
+    border: 1px solid red;
+    width: 1110px;
+    margin: 40px auto 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    
+}
+.intro_block_txt_margin{
+    margin-block-end: 32px;
+}
+.team{
+    background-color: #EEEEEE;
+    margin: auto;
+    padding: 58px 20px 112px 20px;
+}
+.team_header{
+    border: 1px solid red;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+/* identical to box height */
+    width: 1110px;
+    margin: 0 auto 32px;
+    text-align: center;
+    color: #007765;
+}
+.team_photo{
+    border: 1px solid red;
+    width:1110px;
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.team_photo_card{
+    border: 1px solid red;
+    width: 350px;
+    height: 283px;
+}
+.team_photo_img{
+    height: 168;
+    width: 168px;
+    /* margin: 24px 92px 92px; */
+    margin: 24px auto 12px;
+}
+.team_name{
+    
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+color: #007765;
+text-align: center;
+}
+.team_position{
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+}
+.copyright_block{
+    background-color: #333333;
+    padding: 50px 20px 62px; 
+}
+.copyright_rule{
+    border: 1px solid red;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    width: 540px;
+    color: #FFFFFF;
+    margin: 0 auto;
 }
 p {
     margin-block-end: 0;
