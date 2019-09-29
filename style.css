@@ -69,7 +69,7 @@
 }
 
 .hero_block{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url("images/image\ \(1\).png");
     background-size: cover;
     padding:128px 20px 127px 20px;
@@ -89,7 +89,7 @@
     margin: auto;
 }
 .intro_block_header{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -102,7 +102,7 @@
     width: 1110px;
 }
 .intro_block_imgTxt{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 1110px;
     margin: 0 auto;
     font-family: Roboto, sans-serif;
@@ -118,7 +118,7 @@
     margin-right: 48px;
 }
 .intro_block_txt{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 1110px;
     margin: 40px auto 0;
     font-family: Roboto, sans-serif;
@@ -138,7 +138,7 @@
     padding: 58px 20px 112px 20px;
 }
 .team_header{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -151,14 +151,14 @@
     color: #007765;
 }
 .team_photo{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width:1110px;
     margin: 0 auto 30px;
     display: flex;
     justify-content: space-between;
 }
 .team_photo_card{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 350px;
     height: 283px;
 }
@@ -193,7 +193,7 @@ text-align: center;
     padding: 50px 20px 62px; 
 }
 .copyright_rule{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
