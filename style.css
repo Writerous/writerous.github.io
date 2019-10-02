@@ -25,11 +25,14 @@
     color: white;
     }
 .annonce{
+    border: 1px solid red;
     background-image: url("images/image.png");
     background-size: cover;
-    padding: 160px;
+    padding: 160px 20px;
+    
 }
 .annonce_text{
+    border: 1px solid red;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -37,8 +40,13 @@
     line-height: 84px;
     text-align: center;
     color: white;
+    width: 1110px;
+    margin: 0 auto;
+    
 }
 .the_problem{
+    border: 1px solid red;
+    width:1110px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -46,14 +54,15 @@
     line-height: 75px;
     /* identical to box height */
     text-align: center;
-    margin-top: 48px;
+    
+    margin: 48px auto 0;
     /*margin-bottom: 16px; */
     color: #007765;
 }
 .problem_text{
     border: 1px solid red;
     width: 1110px;
-    margin: auto;
+    margin:  0 auto;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -61,6 +70,10 @@
     line-height: 37px;
     margin-bottom: 92px;
     color: #000000;
+}
+.problem_block{
+    border: 1px solid red;
+    padding: 0 20px;
 
 }
 .margin_bl{
@@ -69,7 +82,7 @@
 }
 
 .hero_block{
-     border: 1px solid red; 
+    border: 1px solid red; 
     background-image: url("images/image\ \(1\).png");
     background-size: cover;
     padding:128px 20px 127px 20px;
@@ -98,7 +111,7 @@
 /* identical to box height */
     text-align: center;
     color: #007765;
-     margin: 0 auto 16px;; 
+    margin: 0 auto 16px;; 
     width: 1110px;
 }
 .intro_block_imgTxt{
@@ -227,3 +240,9 @@ a{
 body{
     margin: 0;
 }
+@media screen and (max-width: 1149px)
+    {
+        .bar_line{
+            width: 1149px;
+        }
+    }
