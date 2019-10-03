@@ -1,4 +1,5 @@
 .header_block{
+    /* border: 1px solid red; */
     margin: auto;
     width: 1110px;
     display: flex;
@@ -9,11 +10,13 @@
     width: 184px;
 }
 .bar_line{
+    /* border: 1px solid red; */
     background-image: url("images/Rectangle.png");
     position: sticky;
     top: 0;
     background-size: cover;
-    padding: 20px 0 19px;
+    padding: 20px 20px 19px;
+    
 }
 
 .container_ref{
@@ -25,11 +28,14 @@
     color: white;
     }
 .annonce{
+    /* border: 1px solid red; */
     background-image: url("images/image.png");
     background-size: cover;
-    padding: 160px;
+    padding: 160px 20px;
+    
 }
 .annonce_text{
+    /* border: 1px solid red; */
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -37,8 +43,13 @@
     line-height: 84px;
     text-align: center;
     color: white;
+    width: 1110px;
+    margin: 0 auto;
+    
 }
 .the_problem{
+    /* border: 1px solid red; */
+    width:1110px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -46,14 +57,15 @@
     line-height: 75px;
     /* identical to box height */
     text-align: center;
-    margin-top: 48px;
+    
+    margin: 48px auto 0;
     /*margin-bottom: 16px; */
     color: #007765;
 }
 .problem_text{
     /* border: 1px solid red; */
     width: 1110px;
-    margin: auto;
+    margin:  0 auto;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -61,6 +73,10 @@
     line-height: 37px;
     margin-bottom: 92px;
     color: #000000;
+}
+.problem_block{
+    /* border: 1px solid red; */
+    padding: 0 20px;
 
 }
 .margin_bl{
@@ -69,7 +85,7 @@
 }
 
 .hero_block{
-     /* border: 1px solid red;  */
+    /* border: 1px solid red; */ 
     background-image: url("images/image\ \(1\).png");
     background-size: cover;
     padding:128px 20px 127px 20px;
@@ -85,8 +101,9 @@
     color: #FFFFFF;
 }
 .intro_block{
+    /* border: 1px solid red; */
     padding: 48px 20px 92px 20px;
-    margin: auto;
+    
 }
 .intro_block_header{
     /* border: 1px solid red; */
@@ -98,7 +115,7 @@
 /* identical to box height */
     text-align: center;
     color: #007765;
-     margin: 0 auto 16px;; 
+    margin: 0 auto 16px;; 
     width: 1110px;
 }
 .intro_block_imgTxt{
@@ -134,7 +151,7 @@
 }
 .team{
     background-color: #EEEEEE;
-    margin: auto;
+    
     padding: 58px 20px 112px 20px;
 }
 .team_header{
@@ -155,21 +172,24 @@
     width:1110px;
     margin: 0 auto 30px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .team_photo_card{
     /* border: 1px solid red; */
-    width: 350px;
+    /* width: 350px; */
+    flex-basis: 33%;
     height: 283px;
 }
 .team_photo_img{
+    /* border: 1px solid red; */
     height: 168;
     width: 168px;
     /* margin: 24px 92px 92px; */
     margin: 24px auto 12px;
 }
 .team_name{
-    
+    /* border: 1px solid red; */  
 font-family: Roboto, sans-serif;
 font-style: normal;
 font-weight: bold;
@@ -180,6 +200,7 @@ color: #007765;
 text-align: center;
 }
 .team_position{
+    /* border: 1px solid red; */
     font-family: Roboto, sans-serif;
     font-style: italic;
     font-weight: normal;
@@ -223,3 +244,9 @@ a{
 body{
     margin: 0;
 }
+@media screen and (max-width: 1150px)
+    {
+        .bar_line, .annonce, .problem_block, .hero_block, .intro_block, .team, .copyright_block{
+            width: 1110px;
+        }
+    }
